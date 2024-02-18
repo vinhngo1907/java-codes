@@ -77,6 +77,7 @@ public class Main {
     }
 
     public static void printSorted() {
-
+        list.sortedByMarks();
+        list.showList();
     }
 }

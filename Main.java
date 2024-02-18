@@ -25,7 +25,7 @@ public class Main {
             } else if (choice == 4) {
                 searchById();
             } else if (choice == 5) {
-
+                printSorted();
             } else {
                 System.exit(0);
             }

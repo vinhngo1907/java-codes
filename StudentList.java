@@ -2,7 +2,7 @@ import java.util.*;
 
 public class StudentList {
     private ArrayList<Student> list;
-    private int length;
+    // private int length;
 
     public StudentList() {
         list = new ArrayList<Student>();
@@ -35,5 +35,17 @@ public class StudentList {
 
     public void add (Student s){
         list.add(s);
+    }
+
+    public void showList(){
+        for(Student s: list){
+            s.printInfo();
+        }
+    }
+
+    public void showList(ArrayList<Student> sList){
+        for(Student s: list){
+            s.printInfo();
+        }
     }
 }

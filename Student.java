@@ -42,7 +42,7 @@ public class Student {
         System.out.println("%3d|%10s%10s|%5f\n", getId(), getFirstName(), getLastName(), getMark());
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -54,7 +54,7 @@ public class Student {
         return lastName;
     }
 
-    public Double getMark() {
+    public double getMark() {
         return mark;
     }
 }
